@@ -18,7 +18,7 @@ headers = {
 payload = {}
 
 def download():    
-    album_name = '戏剧圣经'    
+    album_name = '圣经-华语有声戏剧圣经'    
     dir = 'media/{}'.format(album_name)
     if not os.path.exists(dir):
         os.mkdir(dir)
